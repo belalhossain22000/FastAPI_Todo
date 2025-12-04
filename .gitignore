@@ -1,0 +1,94 @@
+# -------------------------
+# PYTHON
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.log
+
+# Byte-compiled / optimized
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local python environment
+.venv/
+venv/
+ENV/
+env/
+
+# Compiled C extensions
+*.so
+
+# -------------------------
+# ENVIRONMENT VARIABLES
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# EDITOR & IDE FILES
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# -------------------------
+# OS FILES
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# TESTS / COVERAGE
+# -------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -------------------------
+# DATABASE / MIGRATIONS
+# -------------------------
+# If using Alembic:
+alembic.ini
+alembic/versions/*.pyc
+alembic/versions/*__pycache__/
+alembic/versions/*.log
+
+# If you generate sqlite DB locally (optional)
+*.sqlite3
+*.db
+
+# -------------------------
+# CACHE / TEMP
+# -------------------------
+.cache/
+dist/
+build/
+*.tmp
+
+# -------------------------
+# PYRIGHT & MYPY
+# -------------------------
+.mypy_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# -------------------------
+# FASTAPI SPECIFIC
+# -------------------------
+# Auto-generated docs
+openapi.json
+
+# Uvicorn logs
+*.pid
+*.log
+ 
