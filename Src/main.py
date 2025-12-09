@@ -11,6 +11,6 @@ async def startup_event():
         await conn.run_sync(Base.metadata.create_all)
         print("🔥 Tables created successfully!")
         
-register_exception_handlers(app)
+# register_exception_handlers(app)
 
 app.include_router(api_router,prefix="/api/v1")
