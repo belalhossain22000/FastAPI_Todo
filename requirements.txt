@@ -1,33 +1,24 @@
-alembic==1.16.5
-altgraph @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.12.0
+bcrypt==5.0.0
 click==8.1.8
 dnspython==2.7.0
 email-validator==2.3.0
 exceptiongroup==1.3.1
 fastapi==0.123.8
-future @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
 greenlet==3.2.4
 h11==0.16.0
 idna==3.11
-librt==0.6.3
-macholib @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
-Mako==1.3.10
-MarkupSafe==3.0.3
-mypy==1.19.0
-mypy_extensions==1.1.0
-pathspec==0.12.1
+passlib==1.7.4
 psycopg==3.2.13
 psycopg-binary==3.2.13
+psycopg2==2.9.11
 pydantic==2.12.5
 pydantic_core==2.41.5
 python-dotenv==1.2.1
-six @ file:///AppleInternal/Library/BuildRoots/39d9dc1a-2111-11f0-be06-226177e5bb69/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
 SQLAlchemy==2.0.44
 starlette==0.49.3
-tomli==2.3.0
 typing-inspection==0.4.2
 typing_extensions==4.15.0
 uvicorn==0.38.0
